@@ -1,0 +1,4 @@
+<%= form_for @test,:url=>{:action=>'create'} do |f| %>
+<%= f.file_field :image %>
+<%=f.submit "save"%>
+<%end%>
